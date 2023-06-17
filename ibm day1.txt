@@ -1,0 +1,157 @@
+
+what is programming
+history of python
+variable
+operator
+
+#relational operation
+a,b=8,9
+print(a>b)
+print(a<b)
+print(a,=b)
+print(a==b)
+print(a!=b)
+
+
+#logical operator
+1.and (&&)
+2. or(||)
+3. not(!)
+ a,b,c=10,20,30
+print(a>b and b<c)
+print(a>b or b<c)
+print(not(a>b or b<c))
+output= false 
+        true false
+
+#assignment operator
++=
+-=
+*=
+/=
+ a,b=10,20
+a+=b #same as a=a+b
+print (a)
+
+#identity operator
+
+
+Q1.write a program to input radius and print area
+'''rad=int(input("input radius"))
+area_of_circle=3.14*rad*rad
+print(area_of_circle)'''
+
+
+Q2.wap to input 3 numbers and calculate their average and print it. also print the persentage of marks?
+
+Q3.write a program to calculate bmi?
+Ans-'''weight=int(input("weight in kg"))
+height=int(input("height in cm"))
+height=height/100
+bmi=weight/(height**2)
+print(f' bmi:{bmi}')'''
+
+#conditional statement
+1.write a program to print simple intrest
+''' p=int(input("principle amount"))
+r=int(input("rate"))
+t=int(input("time"))
+r=r/100
+total=p*r*t
+print(total)'''
+
+2.wap to input temp in celsius and then convert into fahrenheit
+'''c=int(input("input temp in celcius"))
+f=c*1.8+32
+print(f)'''
+
+1.how to take input
+num=int(input("enter a number"))
+print(type(num))
+
+Q1.WAP to calculate EMI
+'''p=int(input("principle amount"))
+r=int(input("rate"))
+n=int(input("time in month"))
+r=r/(12*100)
+import math
+#emi=p*r*pow((1+r),n)/((pow(1+r),n)-1)
+emi=p*r*((1+r)**n)/(((1+r)**n)-1)
+print(emi)
+'''
+Q2.wap to convert celcius into kelvin
+'''c=int(input("input temp in celcius"))
+k=c+273.15
+print(k)'''
+
+libreary in python
+#math libreary
+import math
+1st method   
+math.sqrt()
+print(math.sqrt(8))
+
+2nd method
+
+from math import
+print(sqrt(8))
+
+print(pow(2,3))
+print(abs(-1))
+print(ceil(7.8))
+print(floor(708))
+print(pi)
+print(round(8.5999,2))  #round off in 2 digit
+
+Q1.wap to print area of trianglr using heron's formula
+by taking all side input 
+Ans:-
+'''import math
+a=int(input("input first side"))
+b=int(input("input second side"))
+c=int(input("input third side"))
+s=(a+b+c)/2
+area=math.sqrt(s*(s-a)*(s-b)*(s-c))
+print(area)'''
+
+Q2.wap to calculate emi using pow function
+Q3. wap that reads a number of seconds and prints it in form:
+
+
+mins and second. E.g. 200 sec are printrd as 3min and 20 sec
+
+'''sec=int(input("input time in seconds"))
+minute=sec//60
+second=sec%60
+print(f'time is{minute}min and {second}second')'''
+
+
+Q4. wap to generate the following output:
+ 5
+10
+9
+Ans- '''num1=int(input("enter 1st num"))
+num2=int(input("enter 2nd num"))
+num3=int(input("enter num3"))
+print(f'{num1}\n{num2}\n{num3}')'''
+
+Q5. modifi the above program so as to print output as 5@10@9
+
+Ans-'''num1=int(input("enter 1st num:"))
+num2=int(input("enter 2nd num:"))
+num3=int(input("enter 3rd num:"))
+print(f'{num1}@{num2}@{num3}')'''
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
